@@ -1,0 +1,100 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+body{
+	margin:0;
+	padding: 0;
+	font-family:'Playfair Display', serif;
+	color: #626262; 
+}
+/*header start*/
+header{
+	padding: 20px 0;
+}
+.wrapper{
+	margin: 0 auto;
+	width:90%;
+	overflow:hidden;
+	/*border: 1px solid black;*/
+}
+.logo{
+	width:15%;
+	margin-top: 10px;
+	float:left;
+	/*border: 1px solid red;*/	
+}
+.logo a{}
+.logo a img{
+	width:100%;
+}
+.menu{
+	width:60%;
+	float: right;
+	/*border: 1px solid lime;*/
+}
+.menu ul{	
+	float:right;
+}
+.menu ul li{
+	list-style: none; 
+	float:left;
+}
+.menu ul li a{
+	font-size: 14px;
+	color: #626262;
+	border-bottom: 1px solid white;
+	text-transform: uppercase;
+	text-decoration: none;
+	display: inline-block;
+	margin:0 50px;
+	/*padding:0px 50px;*/
+	transition: .5s;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+	/*padding-right: 0;*/
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262; 
+	/*color:#000000;*/
+}
+/*header end*/
+/*banner start*/
+.banner{
+	/*border: 1px solid lime;*/
+}
+.b_img{
+	/*border: 1px solid red;*/
+}
+.b_img img{
+	width:100%;
+}
+/*banner end*/
+/*about star*/
+.about{
+	padding: 50px 0;
+}
+.wrapper2{
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid lime;*/
+}
+.a_content{}
+.light{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #b4ad9e; 
+	text-transform: uppercase;
+}
+.h1{
+	font-weight: 400;
+	font-size: 30px;	
+}
+.text{
+	line-height: 25px;
+    letter-spacing: 0.5px;
+    margin-bottom: 50px;
+}
+/*about end*/
